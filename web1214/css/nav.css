@@ -1,0 +1,18 @@
+.wrap{
+    width: 100%;
+    height: auto;
+    border: 1px solid #ff0000;
+    margin: 0 auto;
+}
+.wrap .header{
+    width: 1600px;
+    height: auto;
+    border: 1px solid #ff0000;
+    text-align: center;
+}
+.wrap .nav{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #ff0000;
+}

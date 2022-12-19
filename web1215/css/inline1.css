@@ -1,0 +1,43 @@
+@import url(./reset.css);
+/* inline1 */
+.inline{
+    width: 400px;
+    height: 200px;
+    border: 1px solid ;
+    margin: 0 auto;
+}
+
+.inline a{
+    /* display: block; */
+    width: 100px;
+}
+.inline a:link{
+    background-color: #ff0000;
+}
+.inline a:hover{
+    background-color: #0000ff;
+    color: #ffffff;
+    text-decoration: underline;
+}
+.inline a:active{
+    background-color: #ddff00;
+    color: #ff0000;
+    text-decoration: none;
+}
+.inline a:visited{
+    background-color: #00ff00;
+    color: #ffffff;
+    text-decoration: none;
+}
+.inline img{
+    width: 100px;
+    height: 50px;
+}
+.inline a.aImg img{
+    display: block;
+}
+span{
+    background-color: antiquewhite;
+}
+
+

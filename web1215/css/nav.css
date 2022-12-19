@@ -1,0 +1,76 @@
+#wrap{
+    width: 100%;
+}
+/* header */
+.header{
+    /* width: 1000px; */
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+    margin: 0 auto;
+}
+.header .nav{
+    /* width: 1000px; */
+    /* 브라우저(부모) width 1000px까지는 유지 */
+    /* 브라우저(부모) width 1000px이하면 부모 100% */
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border: 1px solid #ff0000;
+    margin: 0 auto;
+}
+.header .nav::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header .nav h1.logo{
+    width: 100px;
+    height: 80px;
+    border: 1px solid #0000ff;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+}
+.header .nav .gnb{
+    width: 400px;
+    height: auto;
+    border: 1px solid #0000ff;
+    float: right;
+}
+.header .nav .gnb ul{
+    /* 나중에 큰일한다 */
+    border: 1px solid #00ff00;
+}
+.header .nav .gnb ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header .nav .gnb ul li{
+    width: 20%;
+    height: 80px;
+    border: 1px solid;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+}
+/* container */
+.container{
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+}
+
+
+
+
+

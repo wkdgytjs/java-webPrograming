@@ -1,0 +1,23 @@
+.parent{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ff0000;
+    margin: 0 auto;
+    color: #ffffff;
+}
+.parent .border-box{
+    width: 200px;
+    height: 200px;
+    border: 15px solid  darkseagreen;
+    background-color: coral;
+    box-sizing: border-box;
+}
+.parent .content-box{
+    width: 200px;
+    height: 200px;
+    border: 15px solid coral;
+    background-color: darkseagreen;
+    box-sizing: border-box;
+}
+
+

@@ -1,0 +1,6 @@
+1. 비주얼 스튜디오 코드(VSC)
+https://code.visualstudio.com/download
+2.플러그인
+->Live Server
+3. open 폴더-> 기본작업폴더(영어)
+**ctr+shift+P -> 설정

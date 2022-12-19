@@ -1,0 +1,38 @@
+#wrap{
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    border: red;
+    color: aliceblue;
+    margin:0 auto;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color: cornflowerblue;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 100px;
+}   
+.container{
+    width: 100%;
+    height: 400px;
+    background-color: darkmagenta;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 400px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 115, 0);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 200px;
+}
