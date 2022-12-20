@@ -1,4 +1,5 @@
 @import url(common/reset.css);
-textarea{
+/* 텍스트 상자 크기 설정X */
+textarea{ 
     resize: none;
 }
