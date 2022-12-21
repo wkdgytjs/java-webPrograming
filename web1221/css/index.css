@@ -1,0 +1,73 @@
+@import url(common/reset.css);
+#wrap{
+    width: 100%;
+}
+/* header */
+.header{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    background-color: #00000011;
+    padding: 20px 0;
+    background: url(../images/test.jpg)no-repeat 50%/cover;
+}
+.header .nav{
+    width: 100%;
+    max-width: 1200px;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: rgb(255, 240, 221);
+}
+.header .nav::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header .nav h1.logo{
+    width: 100px;
+    height: 80px;
+    /* border: 1px solid; */
+    float: left;
+    background-color: rgba(145, 116, 80, 0.815);
+    line-height: 80px;
+}
+.header .nav .gnb{
+    width: 500px;
+    height: auto;
+    border: 1px solid;
+    float: right;
+}
+.header .nav .gnb>ul>li{
+    width: 20%;
+    height: 80opx;
+    border: 1px solid;
+    box-sizing: border-box;
+    background-color: rgb(253, 225, 188);
+    float: left;
+    text-align: center;
+    line-height: 80px;
+}
+.header .nav .gnb>ul>li a{
+    display: block;
+    background-color: tan;
+}
+.header .nav .gnb>ul>li a:hover{
+    background-color:rgb(145, 116, 80);
+    color: #ffffff;
+}
+
+
+/* container */
+/* footer */
+.footer{
+    width: 100%;
+    max-width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 200px;
+    background-color:   rgb(145, 112, 70);
+    color: #ffffff;
+}

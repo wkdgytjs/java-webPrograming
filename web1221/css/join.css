@@ -1,0 +1,121 @@
+@import url(common/reset.css);
+#wrap{
+    width: 100%;
+}
+/* header */
+.header{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    background-color: #00000011;
+    padding: 20px 0;
+    background: url(../images/test.jpg)no-repeat 50%/cover;
+}
+.header .nav{
+    width: 100%;
+    max-width: 1200px;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.header .nav::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header .nav h1.logo{
+    width: 100px;
+    height: 84px;
+    /* border: 1px solid; */
+    float: left;
+    background-color: rgba(145, 116, 80, 0.815);
+    line-height: 80px;
+}
+.header .nav .gnb{
+    width: 500px;
+    height: auto;
+    border: 1px solid rgb(145, 112, 70);
+    float: right;
+}
+.header .nav .gnb>ul>li{
+    width: 20%;
+    height: 80opx;
+    border: 1px solid rgb(145, 112, 70);
+    box-sizing: border-box;
+    background-color: rgb(253, 225, 188);
+    float: left;
+    text-align: center;
+    line-height: 80px;
+}
+.header .nav .gnb>ul>li a{
+    display: block;
+    background-color: tan;
+}
+.header .nav .gnb>ul>li a:hover{
+    background-color:rgb(145, 116, 80);
+    color: #ffffff;
+}
+
+/* container */
+.container{
+    border: 1px solid;
+    box-sizing: border-box;
+}
+.container .join{
+    height: auto;    
+    border: 1px solid;
+    box-sizing: border-box;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+.container .join .join-form{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+.container .join .join-form table{
+    width: 100%;
+}
+.container .join .join-form table tr th{
+    background-color: rgb(145, 112, 70);
+    color: #ffffff;
+    padding: 20px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+
+}
+table,th,td{
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    padding: 10px 2px;
+}
+textarea{
+    resize: none;
+    width: 100%;
+}
+
+.container .join .join-form table tr.lastTr td {
+  background-color: #bd3434;
+  text-align: center;
+}
+.container .join .join-form table tr.lastTr td input{
+  width: 100px;
+  padding: 5px 10px;
+}
+
+
+/* footer */
+.footer{
+    width: 100%;
+    max-width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 200px;
+    background-color:   rgb(145, 112, 70);
+    color: #ffffff;
+}

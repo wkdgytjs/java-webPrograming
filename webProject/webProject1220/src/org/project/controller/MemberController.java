@@ -57,17 +57,11 @@ public class MemberController extends HttpServlet{
 			fowardURL=(String) request.getAttribute("fowardURL");
 			
 		}else if(basicURL.equals("/memberUpdate.do")) {
-			
 			commend=new MemberUpdateDo();
 			commend.excuteQueryCommend(request, response);
-			fowardURL=(String) request.getAttribute("fowardURL");
-			
 		}else if(basicURL.equals("/memberDelete.do")) {
-			
 			commend=new MemberDeleteDo();
-			fowardURL=(String) request.getAttribute("fowardURL");
 			commend.excuteQueryCommend(request, response);
-			
 		}else if(basicURL.equals("/test1220.do")) {
 			fowardURL="/test1220.do";
 		}

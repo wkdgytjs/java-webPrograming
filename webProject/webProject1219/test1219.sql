@@ -20,3 +20,4 @@ select * from test_tb_1219;
 drop table test_tb_1219;
 
 insert into test_tb_1219 values('df','df','df','df','dfd','dfd','dfd');
+
